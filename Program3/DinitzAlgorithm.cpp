@@ -66,7 +66,7 @@ void DinitzAlgorithm::createGraphs(ifstream& file)
 	RG = LG = FG;											//Empty blank slate for all graphs
 
 	file >> numEdges;
-	for (int i = 0; i < numEdges; i++)
+	for (int i = 0; i < numEdges; i++)						//Setting up graphs
 	{
 		file >> from;
 		file >> to;
